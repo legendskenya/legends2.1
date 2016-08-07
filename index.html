@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/jquery.fullpage.min.css">
     <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/hamburgler.css">
 <!--    SCRIPTS   -->
     <script src="js/jquery-2.1.4.min.js"></script>
   </head>
@@ -17,17 +18,34 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser.
             Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+<!--        HAMBURGER MENU -->
+    <div class="mobilenav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">LUMINOUS</a></li>
+        <li><a href="#">WHAT WE DO</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+    </div>
+    <a href="javascript:void(0)" class="icon">
+        <div class="hamburger">
+            <div class="menui top-menu"></div>
+            <div class="menui mid-menu"></div>
+            <div class="menui bottom-menu"></div>
+        </div>
+    </a>
+<!--    end of hamburger menu-->
+<!--    FULL PAGE SCROLLING BEGINS-->
     <div id="fullpage">
       <div class="section">
         <div class="slide">INSPIRING AND SHAPING AFRICA'S ECONOMY</div>
         <div class="slide">DEVELOP SOLUTIONS FOR BUSINESS USING TECHNOLOGY</div>
         <div class="slide">CONSULTANCY IN WEB AND MOBILE DEVELOPMENT</div>
       </div>
-      <div class="section"></div>
-      <div class="section"></div>
-      <div class="section"></div>
-      <div class="section"></div>
+      <div class="section">LEGACY SECTION</div>
+      <div class="section">TEAM SECTION</div>
+      <div class="section">MISSION SECTION</div>
+      <div class="section">CONTACT US SECTION</div>
     </div>
+    <script src="js/hamburgler.js"></script>
     <script src="js/jquery.fullpage.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/main.js"></script>
