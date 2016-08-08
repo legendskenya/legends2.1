@@ -1,0 +1,63 @@
+/*Load all custom fonts using fontface*/
+@font-face {
+    font-family: 'capsuular';
+    src: url('../assets/fonts/Capsuula-webfont.eot');
+    src: url('../assets/fonts/Capsuula-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/Capsuula-webfont.woff') format('woff'),
+         url('../assets/fonts/Capsuula-webfont.ttf') format('truetype'),
+         url('../assets/fonts/Capsuula-webfont.svg#capsuularegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'antipasto';
+    src: url('../assets/fonts/Antipasto_regular.otf') format('opentype');
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'bandy';
+    src: url('../assets/fonts/bandy.TTF') format('truetype');
+    font-weight: bold;
+}
+.capsula{
+    font-family: 'capsuular';
+}
+.antipasto{
+    font-family: 'antipasto';
+}
+.bandy{
+    font-family: 'bandy';
+}
+/*End of custom fonts*/
+#landing{
+    background: url('../assets/images/bg_buildings.jpg') no-repeat fixed center;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 3;
+    text-align: center;
+    color: #f2bb3b;
+    font-size: 2em;
+    font-family: 'antipasto';
+}
+.title{
+    width: 40%;
+    position: relative;
+    top: 50;
+    left: 50;
+    z-index: 7;
+}
+.overlay a{
+    margin: 1.5em;
+}
+.overlay h2{
+    color:#f2bb3b;
+    letter-spacing: 3px;
+    font-family: 'bandy';
+}
