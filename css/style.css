@@ -151,30 +151,36 @@
   -ms-transform: scale(1);
   transform: scale(1);
 }
-/*hover effect ends here*/
+/*hover effect for images ends here*/
+#about{
+    background: url('../assets/images/citybg.jpg');
+}
 #about h5{
     font-family: 'bandy';
 }
 .about-sections{
     font-family: 'antipasto';
-    text-align: justify;
+    text-align: center;
     font-size: 1.5em;
 }
+.about-sections:hover{
+
+}
 #mission{
-    background: #00b5e2;
+/*    background: #00b5e2;*/
     height: 100%;
-    padding: 20% 2% 0 2%;
+    padding: 10% 2% 20% 2%;
 }
 #abt{
-    background: #e29e00;
+/*    background: #e29e00;*/
     height: 100%;
-    padding: 20% 2% 0 2%;
+    padding: 10% 2% 20% 2%;
 
 }
 #vision{
-    background: #e20044;
+/*    background: #e20044;*/
     height: 100%;
-    padding: 20% 2% 0 2%;
+    padding: 10% 2% 20% 2%;
 }
 #textarea1{
     height: 15em;
