@@ -30,7 +30,7 @@
 }
 /*End of custom fonts*/
 #logo{
-    position: fixed;
+    position: absolute;
     top:2.5%;
     left: 2.5%;
     max-width: 100%;
@@ -163,32 +163,82 @@
 #mission{
     background: #00b5e2;
     height: 100%;
-        padding: 20% 2% 25% 2%;
-
+    padding: 20% 2% 0 2%;
 }
 #abt{
     background: #e29e00;
     height: 100%;
-        padding: 20% 2% 25% 2%;
+    padding: 20% 2% 0 2%;
 
 }
 #vision{
     background: #e20044;
     height: 100%;
-        padding: 20% 2% 25% 2%;
+    padding: 20% 2% 0 2%;
+}
+#textarea1{
+    height: 15em;
+    overflow: auto;
 }
 
 #socialmedia ul{
     list-style-type: none;
-    text-align: justify;
+    width: 100%;
+    text-align: center;
+
 }
-#socialmedia li a{
-    width: 5em;
-    list-style-type: none;
+#socialmedia li{
+    width: 11em;
     display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+#socialmedia a{
+    width: 3em;
     text-decoration: none;
     color: #e29e00;
     font-size: 2.5em;
+    text-align: center;
+    margin-top: 30%;
 }
+/*hover effect on social media links*/
+span {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+span:before, span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #e29e00;
+}
+
+span:before {
+  left: -2.5px;
+}
+span:after {
+  right: 2.5px;
+  background: #e29e00;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:before {
+  background: #e29e00;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+/*end of hover effects on social media links*/
+
 
 
