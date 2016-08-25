@@ -29,6 +29,13 @@
     font-family: 'bandy';
 }
 /*End of custom fonts*/
+#logo{
+    position: fixed;
+    top:2.5%;
+    left: 2.5%;
+    max-width: 100%;
+    max-height: 100%;
+}
 #landing{
     background: url('../assets/images/bg_buildings.jpg') no-repeat fixed center;
     position: relative;
@@ -39,7 +46,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 3;
     text-align: center;
     color: #f2bb3b;
@@ -48,10 +55,13 @@
 }
 .title{
     width: 40%;
+    z-index: 7;
+}
+.title h3{
     position: relative;
     top: 50;
     left: 50;
-    z-index: 7;
+    margin-top: 30%;
 }
 .overlay a{
     margin: 1.5em;

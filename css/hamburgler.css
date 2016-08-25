@@ -55,12 +55,12 @@
     height: 32px;
     width:32px;
     margin: 0px;
-    top: 0;
-    left: 0;
+    top: 10%;
+    right: 10%;
 }
 
 .mobilenav {
-    font-family: inherit;
+    font-family: 'antipasto';
     top: 0;
     left:0;
     z-index: 999;
@@ -76,12 +76,17 @@
     padding: 10px;
 }
 .mobilenav li a {
-    font-size: 150%;
-    color: #fff;
+    font-size: 4em;
+    color: #f2bb3b;
     text-decoration: none;
     font-weight: 300;
     width: 100%;
 }
 .mobilenav li:first-child {
     margin-top: 60px;
+}
+.mobilenav a:hover{
+    color: #fff;
+    font-size: 4.2em;
+    transition: ease .4s;
 }
