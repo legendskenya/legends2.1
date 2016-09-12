@@ -183,7 +183,7 @@
     padding: 10% 2% 20% 2%;
 }
 #textarea1{
-    height: 15em;
+    height: 6em;
     overflow: auto;
 }
 
@@ -245,6 +245,19 @@ span:hover:after {
   transition: 0s;
 }
 /*end of hover effects on social media links*/
+footer{
+    background: #696969;
+    color: white;
+    bottom: 0;
+    height: 15em;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    transition: ease .4s;
+    color: #e29e00;
+}
 
 
 
